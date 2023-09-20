@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
 @import url('https://fonts.googleapis.com/css?family=Poppins|Raleway|Open+Sans|Satisfy&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz@6..96&family=Courgette&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:opsz,wght@6..96,900&family=Courgette&display=swap');
 
 *{
     box-sizing: border-box;
@@ -8,12 +10,13 @@
 body {
     margin: 0;
     padding: 0;
-    background: rgb(142, 93, 187);
+    background:url(https://images.unsplash.com/32/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=2070&q=80);
+    font-family: 'Bodoni Moda', serif;
 }
 
 .name {
     padding: 20px;
-    font-family: 'Courgette', cursive;
+    font-family:'Courgette', cursive ;
     font-weight: 500;
     font-size: xx-large;
     font-style: initial;
@@ -72,8 +75,9 @@ main {
     max-width: 65%;
     padding: 25px 24px 25px;
     margin: 0 auto;
-    background: rgb(104, 46, 157);
+    background: rgb(181, 105, 64);
     color: white;
+    
 }
 
 h1 {
@@ -118,17 +122,37 @@ section:nth-of-type(even) > img {
 }
 
 footer {
-    background-color: white;
+   /* height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color:white;
+    color: black;
+    padding-right: 30px;
+    padding-left: 30px; */
 }
 
 .my-image {
-    display: grid;
-   float:left none;  
+    /* width: 75px;
+    height: 75px;
+   float:left none; 
+   border-radius: 50%;  */
 }
 .my-image1 {
  border: solid grey;
+  width: 200px;
+    height: 200px;
+   float: center; 
+   border-radius: 50%; 
+   outline-style: double ;
+   background-blend-mode: hard-light ;
 }
 
 /* .content {
     display: flex;
 } */
+
+#form_id {
+    justify-content: center;
+    align-items: center;
+}
